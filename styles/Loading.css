@@ -1,0 +1,24 @@
+.app-loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 1050;
+	height: 100vh;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.app-loader .fading {
+	opacity: 0;
+	animation: 0.2s ease;
+}
+.app-loader .loaded {
+	display: none;
+}
+.app-loader .loaded .spinner {
+	animation: none;
+}

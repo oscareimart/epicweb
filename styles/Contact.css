@@ -1,0 +1,77 @@
+.input-custom {
+	border-width: 2px 0 0 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	padding: 3%;
+}
+
+.input-custom:focus {
+	border-width: 3px 0 0 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}
+
+.input-custom:hover {
+	border-width: 3px 0 0 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}
+
+.textarea-custom {
+	border-width: 2px 0 2px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	padding: 2%;
+}
+
+.textarea-custom:focus {
+	border-width: 3px 0 3px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}
+
+.textarea-custom:hover {
+	border-width: 3px 0 3px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}
+
+.contact-address {
+	line-height: 0.8rem;
+}
+
+.contact-address a {
+	text-decoration: none;
+}
+
+.whatsapp_float_container {
+	background-color: #ff0002;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	overflow: hidden;
+	margin-left: 1%;
+	margin-bottom: 2%;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.whatsapp_float_container i {
+	font-size: 35px;
+}

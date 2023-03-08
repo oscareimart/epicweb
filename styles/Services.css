@@ -1,0 +1,34 @@
+.card-services {
+	background-color: #eff0f3;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+	transition: 0.3s;
+	min-width: 30%;
+	height: 250px;
+	border-radius: 5px;
+	padding: 40px 5% 35px 5%;
+	color: #000000;
+}
+
+.input-services-custom {
+	border-width: 0 0 2px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	padding-bottom: 5px;
+}
+
+.input-services-custom:focus {
+	border-width: 0 0 2px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}
+
+.input-services-custom:hover {
+	border-width: 0 0 2px 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	border-color: gray;
+}

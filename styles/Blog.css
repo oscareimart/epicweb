@@ -1,0 +1,40 @@
+.blog_container {
+	padding-top: 10%;
+}
+
+.blog_card {
+	border: 0;
+}
+
+.blog_card_body a {
+	color: #000;
+	text-decoration: none;
+}
+.blog_card_body a:hover {
+	color: #ff670f;
+}
+
+.blog_card_img {
+	position: relative;
+	height: 200px;
+}
+
+.blog_card_img img {
+	object-fit: cover;
+}
+
+.entry_blog a {
+	color: #df4759;
+	text-decoration: none;
+}
+
+.entry_blog_es_img {
+	margin-top: 4%;
+	position: relative;
+	height: 400px;
+	width: auto;
+}
+
+.entry_blog_es_img img {
+	object-fit: cover;
+}
